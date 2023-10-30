@@ -1,22 +1,40 @@
-# Health-Analytics
+# SCENARIOS
 Health Analytics with R: A Study Based on "Introduction to Probability and Statistics"
 
-This repository houses my exploration into the fascinating world of health analytics using the R programming language. My analysis is primarily inspired and structured around the renowned book "Introduction to Probability and Statistics".
+Scenario 1:
 
-Project Overview:
-Framework: R
-Main Reference: "Introduction to Probability and Statistics"
-Focus: Health Analytics
-Description:
-In this project, I delve deep into various health-related questions, harnessing the power of statistical methods and probabilistic models as presented in the reference book. Through comprehensive data analysis, visualization, and interpretation, I aim to shed light on pressing health issues and trends.
+RBC Counts The red blood cell count
+of a healthy person was measured on each of
+15 days. The number recorded is measured in 106 cells
+per microliter (uL).
+5.4 5.2 5.0 5.2 5.5
+5.3 5.4 5.2 5.1 5.3
+5.3 4.9 5.4 5.2 5.2
+a. Use an appropriate graph to describe the data.
+b. Describe the shape and location of the red blood cell
+counts.
+c. If the person’s red blood cell count is measured
+today as 5.7  106/L, would you consider
+this unusual? What conclusions might you
+draw?
 
-Key Features:
+Answer 1:
 
-In-depth Analysis: Leveraging R's robust statistical packages and the methodologies from "Introduction to Probability and Statistics", I conduct rigorous data analysis to answer intricate health-related questions.
-Visualizations: Using R's rich visualization libraries, I present data in an insightful and easily digestible format, making complex health statistics more accessible.
-Interpretation: Beyond mere numbers and graphs, I provide a detailed interpretation of the results, ensuring that findings are understood in a broader health context.
-Why This Project?
-Health analytics plays a pivotal role in understanding, predicting, and improving the overall well-being of populations. By marrying the concepts from a foundational statistics book with real-world health data, this project offers a unique lens through which one can appreciate the nuances of health analytics.
+a. Use an appropriate graph to describe the data.
+For describing the distribution of data, a histogram is a commonly used visualization. A boxplot can also be used to describe the spread and central tendency of the data.
+The histogram on the left shows the distribution of the red blood cell counts. Most of the counts seem to cluster around the 5.2 to 5.3 range. The boxplot on the right provides a summary of the data's spread and central tendency. 
+The median (central line in the box) is around 5.3, with the interquartile range (the height of the box) spanning from roughly 5.2 to 5.4.
 
-Whether you're a student, health professional, or just a curious soul, this repository offers valuable insights into the world of health statistics and analytics.
+b. Describe the shape and location of the red blood cell counts.
+From the histogram, we can provide a description of the shape and location of the data. The shape refers to the overall distribution (e.g., whether it's symmetric, skewed, etc.), and the location typically refers to the central tendency (e.g., mean, median).
+The mean red blood cell count is 5.24×10^6 cells/L and the median is 5.2×10^6 cells/L. This indicates that the central location of the data is around these values.
+As for the shape, the histogram suggests a roughly symmetric distribution, with a slight left skewness given that there's a minor tail on the left side.
+
+c. To determine if the value 5.7×10^6 cells/L is unusual, we can calculate the standard deviation of the data and see how many standard deviations away from the mean this value lies. 
+If it's more than 2 standard deviations away, it's typically considered unusual in many contexts.
+The standard deviation of the red blood cell count data is approximately 0.154×10^6 cells/L. The value is roughly 2.99 standard deviations away from the mean.
+
+Given that the value is nearly 3 standard deviations away from the mean, it would be considered unusual in most statistical contexts. 
+A value lying more than 2 standard deviations away from the mean is often considered to be an outlier or atypical. Therefore, a red blood cell count of 5.7×10^6 cells/L 
+might indicate some anomaly or change in the person's health, and it would be advisable to consult with a medical professional for a proper assessment.​
 
