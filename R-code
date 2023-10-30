@@ -1,0 +1,21 @@
+# Create list of data
+rbcc <- c(5.4, 5.2, 5.0, 5.2, 5.5, 5.3, 5.4, 5.2, 5.1, 5.3, 5.3, 4.9, 5.4, 5.2, 5.2)
+
+# Plotting histogram
+hist(rbcc, breaks=8, col="lightblue", main="Histogram of RBC Counts", xlab="Red Blood Cell Count (10^6 cells/L)", border="black", labels = T)
+
+# Plotting boxplot
+boxplot(rbcc, horizontal=TRUE, main="Boxplot of RBC Counts", ylab="Red Blood Cell Count (10^6 cells/L)", col = "lightblue")
+
+
+mean_rbcc <- mean(rbcc)
+median_rbcc <- median(rbcc)
+
+mean_rbcc
+median_rbcc
+
+std_dev <- sd(rbcc)
+std_devs_away <- (5.7 - mean_rbcc) / std_dev
+
+std_dev
+std_devs_away
