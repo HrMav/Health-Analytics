@@ -1,7 +1,7 @@
 # SCENARIOS
 Health Analytics with R: A Study Based on "Introduction to Probability and Statistics"
 
-Scenario 1:
+**Scenario 1:**
 
 RBC Counts The red blood cell count
 of a healthy person was measured on each of
