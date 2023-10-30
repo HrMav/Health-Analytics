@@ -1,5 +1,5 @@
 # SCENARIOS
-Health Analytics with R: A Study Based on "Introduction to Probability and Statistics"
+Describing Data with Graphs and Numerical Measures
 
 **Scenario 1:**
 
@@ -18,7 +18,7 @@ today as 5.7  106/L, would you consider
 this unusual? What conclusions might you
 draw?
 
-Answer 1:
+**Answer 1:**
 
 a. Use an appropriate graph to describe the data.
 For describing the distribution of data, a histogram is a commonly used visualization. A boxplot can also be used to describe the spread and central tendency of the data.
@@ -37,4 +37,31 @@ The standard deviation of the red blood cell count data is approximately 0.154×
 Given that the value is nearly 3 standard deviations away from the mean, it would be considered unusual in most statistical contexts. 
 A value lying more than 2 standard deviations away from the mean is often considered to be an outlier or atypical. Therefore, a red blood cell count of 5.7×10^6 cells/L 
 might indicate some anomaly or change in the person's health, and it would be advisable to consult with a medical professional for a proper assessment.​
+
+**Scenario 2**
+
+Pulse Rates: A group of 50 biomedical
+students recorded their pulse rates by
+counting the number of beats for 30 seconds and
+multiplying by 2.
+80 70 88 70 84 66 84 82 66 42
+52 72 90 70 96 84 96 86 62 78
+60 82 88 54 66 66 80 88 56 104
+84 84 60 84 88 58 72 84 68 74
+84 72 62 90 72 84 72 110 100 58
+
+a.Draw a stem and leaf plot to describe the data,
+splitting each stem into two lines.
+
+b. Construct a relative frequency histogram for the
+data.
+
+c. Write a short paragraph describing the distribution
+of the student pulse rates.
+
+**Answer 2:**
+
+The pulse rates of the 50 biomedical students ranged from a low of 42 to a high of 110. The median pulse rate was 79, indicating that half of the students had pulse rates below this value and half above. The average pulse rate among the students was approximately 76.44. The middle 50% of the students had pulse rates that fell between 66 (1st quartile) and 84 (3rd quartile), giving an interquartile range (IQR) of 18.
+
+The histogram of the pulse rates showed the distribution of these values among the students. From the histogram, it can be seen that the distribution has a slight right skew, with more students having pulse rates on the lower side of the average. There might be a few outliers or extreme values on the higher side, as indicated by the maximum value of 110.
 
