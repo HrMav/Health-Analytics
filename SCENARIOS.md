@@ -3,7 +3,7 @@ Describing Data with Graphs and Numerical Measures
 
 **Scenario 1:**
 
-RBC Counts The red blood cell count
+RBC Counts: The red blood cell count
 of a healthy person was measured on each of
 15 days. The number recorded is measured in 106 cells
 per microliter (uL).
