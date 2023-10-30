@@ -61,6 +61,24 @@ of the student pulse rates.
 
 **Answer 2:**
 
+The decimal point is 1 digit(s) to the right of the |
+
+   4 | 2
+   4 | 
+   5 | 24
+   5 | 688
+   6 | 0022
+   6 | 66668
+   7 | 000222224
+   7 | 8
+   8 | 0022444444444
+   8 | 68888
+   9 | 00
+   9 | 66
+  10 | 04
+  10 | 
+  11 | 0
+
 The pulse rates of the 50 biomedical students ranged from a low of 42 to a high of 110. The median pulse rate was 79, indicating that half of the students had pulse rates below this value and half above. The average pulse rate among the students was approximately 76.44. The middle 50% of the students had pulse rates that fell between 66 (1st quartile) and 84 (3rd quartile), giving an interquartile range (IQR) of 18.
 
 The histogram of the pulse rates showed the distribution of these values among the students. From the histogram, it can be seen that the distribution has a slight right skew, with more students having pulse rates on the lower side of the average. There might be a few outliers or extreme values on the higher side, as indicated by the maximum value of 110.
