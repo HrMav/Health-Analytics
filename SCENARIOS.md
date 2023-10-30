@@ -1,7 +1,7 @@
-# SCENARIOS
+## SCENARIOS
 Describing Data with Graphs and Numerical Measures
 
-**Scenario 1:**
+# Scenario 1:
 
 RBC Counts: The red blood cell count
 of a healthy person was measured on each of
@@ -40,7 +40,7 @@ Given that the value is nearly 3 standard deviations away from the mean, it woul
 A value lying more than 2 standard deviations away from the mean is often considered to be an outlier or atypical. Therefore, a red blood cell count of 5.7×10^6 cells/L 
 might indicate some anomaly or change in the person's health, and it would be advisable to consult with a medical professional for a proper assessment.​
 
-**Scenario 2**
+# Scenario 2
 
 Pulse Rates: A group of 50 biomedical
 students recorded their pulse rates by
