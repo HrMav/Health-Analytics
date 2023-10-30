@@ -7,9 +7,11 @@ RBC Counts: The red blood cell count
 of a healthy person was measured on each of
 15 days. The number recorded is measured in 106 cells
 per microliter (uL).
+
 5.4 5.2 5.0 5.2 5.5
 5.3 5.4 5.2 5.1 5.3
 5.3 4.9 5.4 5.2 5.2
+
 a. Use an appropriate graph to describe the data.
 b. Describe the shape and location of the red blood cell
 counts.
@@ -44,6 +46,7 @@ Pulse Rates: A group of 50 biomedical
 students recorded their pulse rates by
 counting the number of beats for 30 seconds and
 multiplying by 2.
+
 80 70 88 70 84 66 84 82 66 42
 52 72 90 70 96 84 96 86 62 78
 60 82 88 54 66 66 80 88 56 104
