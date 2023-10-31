@@ -65,3 +65,30 @@ prob_c <- pnorm(z1_c) + (1 - pnorm(z2_c))
 prob_a * 100
 prob_b * 100
 prob_c * 100
+
+**SCENARIO 4**
+
+# Given data
+armspan <- c(68, 62.25, 65, 69.5, 68, 69, 62, 60.25)
+height <- c(69, 62, 65, 70, 67, 67, 63, 62)
+
+# a. Scatterplot of armspan vs. height
+plot(armspan, height, main="Scatterplot of Armspan vs. Height", xlab="Armspan (inches)", ylab="Height (inches)", xlim=c(60, 70), ylim=c(60, 70), pch=16, col="blue")
+
+# b. Correlation coefficient
+cor_coeff <- cor(armspan, height, method = "pearson")
+
+# c. Estimate the slope of the regression line
+slope <- cor_coeff * (sd(height) / sd(armspan))
+
+# d. Calculate the regression line
+intercept <- mean(height) - slope * mean(armspan)
+
+# e. Predict height for an armspan of 62 inches
+predicted_height <- intercept + slope * 62
+
+cor_coeff
+slope
+intercept
+predicted_height
+
