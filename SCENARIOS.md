@@ -92,6 +92,7 @@ Breathing Rates: Is your breathing rate normal? Actually, there is no standard b
 minute to as high as 70 or 75 for a person engaged in strenuous exercise. Suppose that the resting breathing rates for college-age students have a relative frequency
 distribution that is mound-shaped, with a mean equal to 12 and a standard deviation of 2.3 breaths per minute.
 What fraction of all students would have breathingrates in the following intervals?
+
 a. 9.7 to 14.3 breaths per minute
 b. 7.4 to 16.6 breaths per minute
 c. More than 18.9 or less than 5.1 breaths per minute
