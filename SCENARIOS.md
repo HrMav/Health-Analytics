@@ -122,7 +122,7 @@ About 99.7% falls within three standard deviations.
 
 ## Scenario 4
 
-Armspan and Height Leonardo da Vinci (1452–1519) drew a sketch of a man, indicating that a person’s armspan (measuring across
+Armspan and Height: Leonardo da Vinci (1452–1519) drew a sketch of a man, indicating that a person’s armspan (measuring across
 the back with arms outstretched to make a “T”) is roughly equal to the person’s height. To test this claim, we measured eight people with the following results:
 
 Person 1 2 3 4
