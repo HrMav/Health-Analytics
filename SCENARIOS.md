@@ -23,11 +23,13 @@ draw?
 **Answer 1**
 
 a. Use an appropriate graph to describe the data.
+
 For describing the distribution of data, a histogram is a commonly used visualization. A boxplot can also be used to describe the spread and central tendency of the data.
 The histogram on the left shows the distribution of the red blood cell counts. Most of the counts seem to cluster around the 5.2 to 5.3 range. The boxplot on the right provides a summary of the data's spread and central tendency. 
 The median (central line in the box) is around 5.3, with the interquartile range (the height of the box) spanning from roughly 5.2 to 5.4.
 
 b. Describe the shape and location of the red blood cell counts.
+
 From the histogram, we can provide a description of the shape and location of the data. The shape refers to the overall distribution (e.g., whether it's symmetric, skewed, etc.), and the location typically refers to the central tendency (e.g., mean, median).
 The mean red blood cell count is 5.24×10^6 cells/L and the median is 5.2×10^6 cells/L. This indicates that the central location of the data is around these values.
 As for the shape, the histogram suggests a roughly symmetric distribution, with a slight left skewness given that there's a minor tail on the left side.
