@@ -1,7 +1,7 @@
 ## SCENARIOS
 Describing Data with Graphs and Numerical Measures
 
-## Scenario 1:
+## Scenario 1
 
 RBC Counts: The red blood cell count
 of a healthy person was measured on each of
@@ -20,7 +20,7 @@ today as 5.7  106/L, would you consider
 this unusual? What conclusions might you
 draw?
 
-**Answer 1:**
+**Answer 1**
 
 a. Use an appropriate graph to describe the data.
 For describing the distribution of data, a histogram is a commonly used visualization. A boxplot can also be used to describe the spread and central tendency of the data.
@@ -62,7 +62,7 @@ data.
 c. Write a short paragraph describing the distribution
 of the student pulse rates.
 
-**Answer 2:**
+**Answer 2**
 
 The decimal point is 1 digit(s) to the right of the |
 
@@ -86,3 +86,33 @@ The pulse rates of the 50 biomedical students ranged from a low of 42 to a high 
 
 The histogram of the pulse rates showed the distribution of these values among the students. From the histogram, it can be seen that the distribution has a slight right skew, with more students having pulse rates on the lower side of the average. There might be a few outliers or extreme values on the higher side, as indicated by the maximum value of 110.
 
+## Scenario 3
+
+Breathing Rates: Is your breathing rate normal? Actually, there is no standard breathing rate forhumans. It can vary from as low as 4 breaths per
+minute to as high as 70 or 75 for a person engaged in strenuous exercise. Suppose that the resting breathing rates for college-age students have a relative frequency
+distribution that is mound-shaped, with a mean equal to 12 and a standard deviation of 2.3 breaths per minute.
+What fraction of all students would have breathingrates in the following intervals?
+a. 9.7 to 14.3 breaths per minute
+b. 7.4 to 16.6 breaths per minute
+c. More than 18.9 or less than 5.1 breaths per minute
+
+**Answer 3**
+
+a. 9.7 to 14.3 breaths per minute
+To determine the fraction of students with breathing rates in the interval 9.7 to 14.3 breaths per minute, we'll find the z-scores for both 9.7 and 14.3, then use the CDF to find the probability 
+between these z-scores.
+Approximately 68% of students have breathing rates between 9.7 and 14.3 breaths per minute.
+
+b. 7.4 to 16.6 breaths per minute
+Similarly, for the interval 7.4 to 16.6 breaths per minute, we'll find the z-scores for both 7.4 and 16.6 and then use the CDF.
+About 95% of students have breathing rates between 7.4 and 16.6 breaths per minute.
+
+c. More than 18.9 or less than 5.1 breaths per minute
+For this part, we'll find the z-scores for 18.9 and 5.1. Then, we'll use the CDF to determine the probabilities for values greater than 18.9 and less than 5.1, and sum the two probabilities.
+Only a small fraction (5%) of students would have breathing rates more than 18.9 or less than 5.1 breaths per minute.
+
+These percentages stem from the properties of the standard normal distribution:
+
+About 68% of the data falls within one standard deviation of the mean.
+About 95% falls within two standard deviations.
+About 99.7% falls within three standard deviations.
