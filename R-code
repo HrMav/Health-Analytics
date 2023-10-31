@@ -40,3 +40,28 @@ iqr_val <- IQR(pulse_rates)
 
 summary_stats
 iqr_val
+
+**SCENARIO 3**
+
+# Given parameters
+mu <- 12
+sigma <- 2.3
+
+# a. 9.7 to 14.3 breaths per minute
+z1_a <- (9.7 - mu) / sigma
+z2_a <- (14.3 - mu) / sigma
+prob_a <- pnorm(z2_a) - pnorm(z1_a)
+
+# b. 7.4 to 16.6 breaths per minute
+z1_b <- (7.4 - mu) / sigma
+z2_b <- (16.6 - mu) / sigma
+prob_b <- pnorm(z2_b) - pnorm(z1_b)
+
+# c. More than 18.9 or less than 5.1 breaths per minute
+z1_c <- (5.1 - mu) / sigma
+z2_c <- (18.9 - mu) / sigma
+prob_c <- pnorm(z1_c) + (1 - pnorm(z2_c))
+
+prob_a * 100
+prob_b * 100
+prob_c * 100
