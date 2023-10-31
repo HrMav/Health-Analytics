@@ -119,3 +119,50 @@ These percentages stem from the properties of the standard normal distribution:
 About 68% of the data falls within one standard deviation of the mean.
 About 95% falls within two standard deviations.
 About 99.7% falls within three standard deviations.
+
+## Scenario 4
+
+Armspan and Height Leonardo da Vinci (1452–1519) drew a sketch of a man, indicating that a person’s armspan (measuring across
+the back with arms outstretched to make a “T”) is roughly equal to the person’s height. To test this claim, we measured eight people with the following results:
+
+Person 1 2 3 4
+Armspan (inches) 68 62.25 65 69.5
+Height (inches) 69 62 65 70
+
+Person 5 6 7 8
+Armspan (inches) 68 69 62 60.25
+Height (inches) 67 67 63 62
+
+a. Draw a scatterplot for armspan and height. Use the same scale on both the horizontal and vertical axes. Describe the relationship between the two variables.
+
+b. Calculate the correlation coefficient relating armspan and height. 
+
+c. If you were to calculate the regression line for predicting height based on a person’s armspan, how would you estimate the slope of this line?
+
+d. Find the regression line relating armspan to a person’s height. 
+
+e. If a person has an armspan of 62 inches, what would you predict the person’s height to be?
+
+**Answer 4**
+
+a. Draw a scatterplot for armspan and height.
+We'll start by plotting the scatterplot of armspan against height and ensuring that we use the same scale for both axes. This will help us visually assess the relationship between the two variables.
+The scatterplot shows a positive linear relationship between armspan and height. As armspan increases, height tends to increase, and vice versa.
+
+b. Calculate the correlation coefficient relating armspan and height.
+The correlation coefficient (r) quantifies the strength and direction of the linear relationship between two variables. We'll compute this for the given data.
+The correlation coefficient relating armspan and height is 0.9459924. This indicates a strong positive linear relationship between the two variables, suggesting that as one's armspan increases, 
+their height tends to increase proportionally.
+
+c. Estimate the slope of the regression line.
+The formula for the slope (b) of the regression line in simple linear regression is:
+b =  r x s~y / s~x
+
+d. Find the regression line relating armspan to a person’s height.
+The regression equation is given by: y = a + bx
+where, y = predicted value of dependent variable (height)
+a =  y-intercept
+b = slope
+x =  independent variable (armspan)
+
+
