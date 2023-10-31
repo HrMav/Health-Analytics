@@ -133,6 +133,8 @@ Person 5 6 7 8
 Armspan (inches) 68 69 62 60.25
 Height (inches) 67 67 63 62
 
+![Leo](https://github.com/HrMav/Health-Analytics-Statistics-Inferences-R/assets/132946730/5b9a3e78-5032-44a5-8157-3f5e58911351)
+
 a. Draw a scatterplot for armspan and height. Use the same scale on both the horizontal and vertical axes. Describe the relationship between the two variables.
 
 b. Calculate the correlation coefficient relating armspan and height. 
