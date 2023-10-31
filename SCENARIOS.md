@@ -88,7 +88,7 @@ The histogram of the pulse rates showed the distribution of these values among t
 
 ## Scenario 3
 
-Breathing Rates: Is your breathing rate normal? Actually, there is no standard breathing rate forhumans. It can vary from as low as 4 breaths per
+Breathing Rates: Is your breathing rate normal? Actually, there is no standard breathing rate for humans. It can vary from as low as 4 breaths per
 minute to as high as 70 or 75 for a person engaged in strenuous exercise. Suppose that the resting breathing rates for college-age students have a relative frequency
 distribution that is mound-shaped, with a mean equal to 12 and a standard deviation of 2.3 breaths per minute.
 What fraction of all students would have breathingrates in the following intervals?
