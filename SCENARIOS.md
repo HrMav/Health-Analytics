@@ -156,7 +156,14 @@ their height tends to increase proportionally.
 
 c. Estimate the slope of the regression line.
 The formula for the slope (b) of the regression line in simple linear regression is:
-b =  r x s~y / s~x
+b =  r x sy / sx
+
+where, r = correlation coefficient
+sy = standard deviation of the dependent variable (height in this case)
+sx = standard deviation of the independent variable (armspan in this case)
+
+The estimated slope of the regression line is 0.8153215. This means that for each one-inch increase in armspan, we expect the height to increase by approximately 
+0.815 inches, on average.
 
 d. Find the regression line relating armspan to a person’s height.
 The regression equation is given by: y = a + bx
@@ -165,4 +172,16 @@ a =  y-intercept
 b = slope
 x =  independent variable (armspan)
 
+The regression line relating armspan to a person’s height is given by:
+Height = 12.22144 + 0.8153215 × Armspan
 
+e. If a person has an armspan of 62 inches, what would you predict the person’s height to be?
+We'll plug the armspan value of 62 inches into the regression equation to predict the height.
+
+If a person has an armspan of 62 inches, the predicted height would be approximately 63.8 inches.
+
+The strong positive correlation of 0.946 and the regression line further supports the idea that a person's armspan is closely related to their height. 
+The regression line gives us a tool to predict a person's height based on their armspan, and the predicted height for an armspan of 62 inches aligns closely with Leonardo da Vinci's claim.
+
+In conclusion, the data suggests that Leonardo da Vinci's claim that a person's armspan is roughly equal to their height holds true for this sample of individuals, as indicated by 
+the strong positive correlation and the regression line.
