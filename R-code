@@ -92,3 +92,31 @@ slope
 intercept
 predicted_height
 
+**SCENARIO 5**
+
+# Given data
+nA <- 154
+nB <- 67
+nC <- 35
+nP <- 101
+nG <- 155
+nA_and_P <- 66
+nA_and_G <- 88
+nB_and_P <- 23
+nB_and_G <- 44
+nC_and_P <- 12
+nC_and_G <- 23
+n <- 256
+
+# Calculating probabilities
+pA <- nA / n
+pG <- nG / n
+pA_and_G <- nA_and_G / n
+pG_given_A <- nA_and_G / nA
+pG_given_B <- nB_and_G / nB
+pG_given_C <- nC_and_G / nC
+pC_given_P <- nC_and_P / nP
+pB_complement <- 1 - (nB / n)
+
+cat(pA, pG, pA_and_G, pG_given_A, pG_given_B, pG_given_C, pC_given_P, pB_complement)
+
