@@ -190,7 +190,7 @@ the strong positive correlation and the regression line.
 
 ## Scenario 5
 
-Soccer Injuries During the inaugural season of Major League Soccer in the United States, the medical teams documented 256 injuries that caused a loss of
+**Soccer Injuries:** During the inaugural season of Major League Soccer in the United States, the medical teams documented 256 injuries that caused a loss of
 participation time to the player. The results of this investigation, reported in The American Journal of Sports Medicine, is shown in the table.3
 
 Severity Practice (P) Game (G) Total
@@ -203,3 +203,45 @@ If one individual is drawn at random from this group of 256 soccer players, find
 a. P(A) b. P(G) c. P(A cap G)
 d. P(G|A) e. P(G|B) f. P(G|C)
 g. P(C|P) h. P(B<sup>c</sup> )
+
+**Answer 5**
+
+Let's first define the terms and understand the given table:
+
+We have injuries categorized by severity (MinorA, Moderate B, Major C) and by when they occurred (during Practice P or during a Game G).
+
+From the table:
+
+n(A) = Number of Minor injuries = 154
+
+n(B) = Number of Moderate injuries = 67
+
+n(C) = Number of Major injuries = 35
+
+n(P) = Number of injuries during Practice = 101
+
+n(G) = Number of injuries during Game = 155
+
+Using the formula for probability:
+
+P(E)= n(E) / ∩
+
+P(E∣F)= P(E∩F) / P(F)
+
+The results provide several key insights into the injury patterns of Major League Soccer players during the inaugural season:
+
+a. P(A)= 0.6016 suggests that a significant majority (about 60%) of the injuries were minor. This indicates that while injuries were common, most did not result in severe harm to the players.
+
+b. P(G)= 0.6055 shows that just over 60% of injuries occurred during games rather than practices. This might be expected given the higher intensity and competitiveness of games compared to practice sessions.
+
+c. P(A∩G)= 0.3438 demonstrates that roughly 34% of all injuries were minor injuries that occurred during games. This is the largest single category of injuries, which is consistent with the nature of a game setting where minor injuries are more common.
+
+d. P(G∣A)= 0.5714 suggests that given a minor injury, there is a 57% chance it occurred during a game. This is slightly lower than the overall probability of an injury occurring during a game, indicating that minor injuries are somewhat more evenly distributed between games and practices compared to moderate and major injuries.
+
+e. P(G∣B)= 0.6567 and P(G∣C)= 0.6571 both indicate that given an injury is either moderate or major, there is approximately a 66% chance that it occurred during a game. This further reinforces the idea that games are more likely to be the setting for more serious injuries.
+
+f. P(C∣P)= 0.1188 tells us that major injuries are relatively rare during practice, constituting about 12% of the injuries that occur in this setting. Practice conditions are presumably controlled and less intense, resulting in a lower rate of major injuries.
+
+g. P(B<sub>c</sub>)= 0.7383 informs us that nearly 74% of injuries are not moderate. Combined with the data for minor injuries, this suggests that a large majority of injuries are either minor or major, with minor injuries being far more common.
+
+From a sports management perspective, these probabilities could be used to inform training practices, game strategies, and medical staffing decisions. For example, the high rate of injuries during games might call for increased medical staff presence during these times. The nature of injuries could also inform targeted injury prevention programs, focusing on the most common types of injuries incurred during games.
