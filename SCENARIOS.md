@@ -242,6 +242,6 @@ e. P(G∣B)= 0.6567 and P(G∣C)= 0.6571 both indicate that given an injury is e
 
 f. P(C∣P)= 0.1188 tells us that major injuries are relatively rare during practice, constituting about 12% of the injuries that occur in this setting. Practice conditions are presumably controlled and less intense, resulting in a lower rate of major injuries.
 
-g. P(B<sub>c</sub>)= 0.7383 informs us that nearly 74% of injuries are not moderate. Combined with the data for minor injuries, this suggests that a large majority of injuries are either minor or major, with minor injuries being far more common.
+g. P(B<sup>c</sup>)= 0.7383 informs us that nearly 74% of injuries are not moderate. Combined with the data for minor injuries, this suggests that a large majority of injuries are either minor or major, with minor injuries being far more common.
 
 From a sports management perspective, these probabilities could be used to inform training practices, game strategies, and medical staffing decisions. For example, the high rate of injuries during games might call for increased medical staff presence during these times. The nature of injuries could also inform targeted injury prevention programs, focusing on the most common types of injuries incurred during games.
