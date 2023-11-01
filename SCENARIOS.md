@@ -3,7 +3,7 @@ Describing Data with Graphs and Numerical Measures
 
 ## Scenario 1
 
-RBC Counts: The red blood cell count
+**RBC Counts:** The red blood cell count
 of a healthy person was measured on each of
 15 days. The number recorded is measured in 106 cells
 per microliter (uL).
@@ -44,7 +44,7 @@ might indicate some anomaly or change in the person's health, and it would be ad
 
 ## Scenario 2
 
-Pulse Rates: A group of 50 biomedical
+**Pulse Rates:** A group of 50 biomedical
 students recorded their pulse rates by
 counting the number of beats for 30 seconds and
 multiplying by 2.
@@ -90,7 +90,7 @@ The histogram of the pulse rates showed the distribution of these values among t
 
 ## Scenario 3
 
-Breathing Rates: Is your breathing rate normal? Actually, there is no standard breathing rate for humans. It can vary from as low as 4 breaths per
+**Breathing Rates:** Is your breathing rate normal? Actually, there is no standard breathing rate for humans. It can vary from as low as 4 breaths per
 minute to as high as 70 or 75 for a person engaged in strenuous exercise. Suppose that the resting breathing rates for college-age students have a relative frequency
 distribution that is mound-shaped, with a mean equal to 12 and a standard deviation of 2.3 breaths per minute.
 What fraction of all students would have breathingrates in the following intervals?
@@ -122,7 +122,7 @@ About 99.7% falls within three standard deviations.
 
 ## Scenario 4
 
-Armspan and Height: Leonardo da Vinci (1452–1519) drew a sketch of a man, indicating that a person’s armspan (measuring across
+**Armspan and Height:** Leonardo da Vinci (1452–1519) drew a sketch of a man, indicating that a person’s armspan (measuring across
 the back with arms outstretched to make a “T”) is roughly equal to the person’s height. To test this claim, we measured eight people with the following results:
 
 Person 1 2 3 4
@@ -187,3 +187,19 @@ The regression line gives us a tool to predict a person's height based on their 
 
 In conclusion, the data suggests that Leonardo da Vinci's claim that a person's armspan is roughly equal to their height holds true for this sample of individuals, as indicated by 
 the strong positive correlation and the regression line.
+
+## Scenario 5
+
+Soccer Injuries During the inaugural season of Major League Soccer in the United States, the medical teams documented 256 injuries that caused a loss of
+participation time to the player. The results of this investigation, reported in The American Journal of Sports Medicine, is shown in the table.3
+
+Severity Practice (P) Game (G) Total
+Minor (A) 66 88 154
+Moderate (B) 23 44 67
+Major (C) 12 23 35
+Total 101 155 256
+
+If one individual is drawn at random from this group of 256 soccer players, find the following probabilities:
+a. P(A) b. P(G) c. P(A \bigcup\ G)
+d. P(G|A) e. P(G|B) f. P(G|C)
+g. P(C|P) h. P(B^c^ )
