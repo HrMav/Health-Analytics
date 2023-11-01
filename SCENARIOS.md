@@ -200,6 +200,6 @@ Major (C) 12 23 35
 Total 101 155 256
 
 If one individual is drawn at random from this group of 256 soccer players, find the following probabilities:
-a. P(A) b. P(G) c. P(A \bigcup\ G)
+a. P(A) b. P(G) c. P(A cap G)
 d. P(G|A) e. P(G|B) f. P(G|C)
-g. P(C|P) h. P(B^c^ )
+g. P(C|P) h. P(B<sup>c</sup> )
