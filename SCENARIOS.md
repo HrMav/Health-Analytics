@@ -88,7 +88,7 @@ The pulse rates of the 50 biomedical students ranged from a low of 42 to a high 
 
 The histogram of the pulse rates showed the distribution of these values among the students. From the histogram, it can be seen that the distribution has a slight right skew, with more students having pulse rates on the lower side of the average. There might be a few outliers or extreme values on the higher side, as indicated by the maximum value of 110.
 
-## Scenario 3
+## Scenario 3 - Standard Normal Distribution
 
 **Breathing Rates:** Is your breathing rate normal? Actually, there is no standard breathing rate for humans. It can vary from as low as 4 breaths per
 minute to as high as 70 or 75 for a person engaged in strenuous exercise. Suppose that the resting breathing rates for college-age students have a relative frequency
@@ -120,7 +120,7 @@ About 68% of the data falls within one standard deviation of the mean.
 About 95% falls within two standard deviations.
 About 99.7% falls within three standard deviations.
 
-## Scenario 4
+## Scenario 4 - Simple Regression
 
 **Armspan and Height:** Leonardo da Vinci (1452–1519) drew a sketch of a man, indicating that a person’s armspan (measuring across
 the back with arms outstretched to make a “T”) is roughly equal to the person’s height. To test this claim, we measured eight people with the following results:
@@ -188,7 +188,7 @@ The regression line gives us a tool to predict a person's height based on their 
 In conclusion, the data suggests that Leonardo da Vinci's claim that a person's armspan is roughly equal to their height holds true for this sample of individuals, as indicated by 
 the strong positive correlation and the regression line.
 
-## Scenario 5
+## Scenario 5 - Probability
 
 **Soccer Injuries:** During the inaugural season of Major League Soccer in the United States, the medical teams documented 256 injuries that caused a loss of
 participation time to the player. The results of this investigation, reported in The American Journal of Sports Medicine, is shown in the table.3
@@ -245,3 +245,45 @@ f. P(C∣P)= 0.1188 tells us that major injuries are relatively rare during prac
 g. P(B<sup>c</sup>)= 0.7383 informs us that nearly 74% of injuries are not moderate. Combined with the data for minor injuries, this suggests that a large majority of injuries are either minor or major, with minor injuries being far more common.
 
 From a sports management perspective, these probabilities could be used to inform training practices, game strategies, and medical staffing decisions. For example, the high rate of injuries during games might call for increased medical staff presence during these times. The nature of injuries could also inform targeted injury prevention programs, focusing on the most common types of injuries incurred during games.
+
+## Scenario 6 - Sampling
+
+**Blood Thinner** A study of an experimental blood thinner was conducted to determine whether it works better than the simple aspirin tablet in warding
+off heart attacks and strokes.4 The study, reported in the Press Enterprise, involved 19,185 people who had suffered heart attacks, strokes, or pain from clogged
+arteries. Each person was randomly assigned to take either aspirin or the experimental drug for 1 to 3 years.
+Assume that each person was equally likely to be assigned one of the two medications.
+
+a. Devise a randomization plan to assign the medications to the patients.
+
+b. Will there be an equal number of patients in each treatment group? Explain.
+
+**Answer 6**
+
+**1. Stratified Random Sampling**
+Description: In stratified random sampling, the population is divided into different 'strata' or subgroups based on certain characteristics (like age, gender, medical history), and then random samples are taken from each stratum.
+Ideal For: Studies where it's crucial to ensure that specific subgroups are proportionately represented.
+Suitability for This Study: Highly suitable if the study aims to ensure representation across different demographic or health-related subgroups. This can be important in a medical study to ensure the results are generalizable across different segments of the population.
+
+**2. Cluster Sampling**
+Description: In cluster sampling, the entire population is divided into clusters (like different geographic regions or medical centers), and then a random selection of clusters is chosen for inclusion in the study.
+Ideal For: Studies where individual random sampling is logistically challenging or costly, and when clusters represent the population well.
+Suitability for This Study: May be less suitable if the clusters (like different hospitals or regions) have significant variations in patient characteristics, as this could introduce biases or reduce the generalizability of the study results.
+
+**3. 1-in-k Systematic Random Sampling**
+Description: Every kth element from a list or sequence is selected. For instance, if k=10, every 10th person on a list might be chosen.
+Ideal For: Situations where a list of the population is available and it's important to spread the sample evenly over the entire population.
+Suitability for This Study: Could be suitable if the participants are uniformly distributed in a list (e.g., sorted by entry time or ID number). However, there's a risk of introducing biases if there are hidden patterns in the list.
+
+Conclusion
+
+For a clinical trial like this, **stratified random sampling** often represents the most ideal approach. This is because it allows the researchers to ensure that all relevant subgroups (based on age, gender, medical history, etc.) are adequately represented in the sample, which is crucial for the validity and generalizability of the results in a medical study. It also helps in controlling for confounding variables, which is a key aspect of clinical trials.
+
+**Equal Number of Patients in Each Treatment Group**
+
+Ideal Scenario: In theory, with a 1:1 allocation ratio and a total of 19,185 participants, you would expect approximately half of the participants (about 9,592 or 9,593) in each group.
+
+Practical Consideration: However, due to the randomness of the process, the actual numbers in each group may not be exactly equal. There's always a chance of a slight variation due to the nature of random assignment.
+
+Statistical Acceptance: Minor deviations from an exact half-and-half split are statistically acceptable and won’t significantly impact the validity of the study, as long as the randomization process is properly conducted.
+
+In conclusion, while the randomization plan aims for equal distribution, the actual numbers might not be perfectly equal due to the randomness inherent in the process, but this should not affect the study's overall validity.
