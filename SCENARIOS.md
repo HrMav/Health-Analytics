@@ -309,8 +309,8 @@ Part a: Mean and Standard Deviation of T
 
 Given that the distribution of potassium in a banana is normally distributed with a mean (μ) of 630 mg and a standard deviation (σ) of 40 mg, when you eat n=3 bananas:
 
-    Mean of T: Since the mean of the total intake T is the sum of the means of individual bananas, it will be μT=n×μ.
-    Standard Deviation of T: The standard deviation of T, when the bananas are independent of each other, is given by σT=sqrtn×σ.
+Mean of T: Since the mean of the total intake T is the sum of the means of individual bananas, it will be μT=n×μ.
+Standard Deviation of T: The standard deviation of T, when the bananas are independent of each other, is given by σT=sqrtn×σ.
 
 Part b: Probability of Exceeding 2000 mg
 
