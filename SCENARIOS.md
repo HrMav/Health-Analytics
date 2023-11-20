@@ -248,7 +248,7 @@ From a sports management perspective, these probabilities could be used to infor
 
 ## Scenario 6 - Sampling
 
-**Blood Thinner** A study of an experimental blood thinner was conducted to determine whether it works better than the simple aspirin tablet in warding
+**Blood Thinner:** A study of an experimental blood thinner was conducted to determine whether it works better than the simple aspirin tablet in warding
 off heart attacks and strokes.4 The study, reported in the Press Enterprise, involved 19,185 people who had suffered heart attacks, strokes, or pain from clogged
 arteries. Each person was randomly assigned to take either aspirin or the experimental drug for 1 to 3 years.
 Assume that each person was equally likely to be assigned one of the two medications.
@@ -287,3 +287,33 @@ Practical Consideration: However, due to the randomness of the process, the actu
 Statistical Acceptance: Minor deviations from an exact half-and-half split are statistically acceptable and won’t significantly impact the validity of the study, as long as the randomization process is properly conducted.
 
 In conclusion, while the randomization plan aims for equal distribution, the actual numbers might not be perfectly equal due to the randomness inherent in the process, but this should not affect the study's overall validity.
+
+## Scenario 7 - Central Limit Theorem
+
+**Potassium Levels:** The normal daily human potassium requirement is in the range of 2000 to 6000 milligrams (mg), with larger amounts required during
+hot summer weather. The amount of potassium in food varies, depending on the food. For example, there are approximately 7 mg in a cola drink, 46 mg in a beer,
+630 mg in a banana, 300 mg in a carrot, and 440 mg in a glass of orange juice. Suppose the distribution of potassium in a banana is normally distributed, with
+mean equal to 630 mg and standard deviation equal to 40 mg per banana. You eat n  3 bananas per day, and T is the total number of milligrams of potassium you
+receive from them.
+
+a. Find the mean and standard deviation of T.
+
+b. Find the probability that your total daily intakeof potassium from the three bananas will exceed 2000 mg.
+
+**Answer 7**
+
+
+Using the Central Limit Theorem, we'll first calculate the mean and standard deviation of TT, the total potassium intake from eating three bananas. Then, we'll find the probability that this total intake exceeds 2000 mg.
+
+Part a: Mean and Standard Deviation of T
+
+Given that the distribution of potassium in a banana is normally distributed with a mean (μ) of 630 mg and a standard deviation (σ) of 40 mg, when you eat n=3 bananas:
+
+    Mean of T: Since the mean of the total intake T is the sum of the means of individual bananas, it will be μT=n×μ.
+    Standard Deviation of T: The standard deviation of T, when the bananas are independent of each other, is given by σT=sqrtn×σ.
+
+Part b: Probability of Exceeding 2000 mg
+
+To find the probability that the total intake from the three bananas exceeds 2000 mg, we use the properties of the normal distribution. We'll standardize the variable and use the standard normal distribution to find the probability.
+
+Now, let's calculate these values in R. I'll simulate the R code to demonstrate how it's done.
