@@ -293,7 +293,7 @@ In conclusion, while the randomization plan aims for equal distribution, the act
 **Potassium Levels:** The normal daily human potassium requirement is in the range of 2000 to 6000 milligrams (mg), with larger amounts required during
 hot summer weather. The amount of potassium in food varies, depending on the food. For example, there are approximately 7 mg in a cola drink, 46 mg in a beer,
 630 mg in a banana, 300 mg in a carrot, and 440 mg in a glass of orange juice. Suppose the distribution of potassium in a banana is normally distributed, with
-mean equal to 630 mg and standard deviation equal to 40 mg per banana. You eat n  3 bananas per day, and T is the total number of milligrams of potassium you
+mean equal to 630 mg and standard deviation equal to 40 mg per banana. You eat n = 3 bananas per day, and T is the total number of milligrams of potassium you
 receive from them.
 
 a. Find the mean and standard deviation of T.
