@@ -303,7 +303,7 @@ b. Find the probability that your total daily intakeof potassium from the three 
 **Answer 7**
 
 
-Using the Central Limit Theorem, we'll first calculate the mean and standard deviation of TT, the total potassium intake from eating three bananas. Then, we'll find the probability that this total intake exceeds 2000 mg.
+Using the Central Limit Theorem, we'll first calculate the mean and standard deviation of T, the total potassium intake from eating three bananas. Then, we'll find the probability that this total intake exceeds 2000 mg.
 
 Part a: Mean and Standard Deviation of T
 
