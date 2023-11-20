@@ -1,7 +1,7 @@
 ## SCENARIOS
-Describing Data with Graphs and Numerical Measures
 
-## Scenario 1
+
+## Scenario 1 - Describing Data with Graphs and Numerical Measures
 
 **RBC Counts:** The red blood cell count
 of a healthy person was measured on each of
