@@ -120,3 +120,25 @@ pB_complement <- 1 - (nB / n)
 
 cat(pA, pG, pA_and_G, pG_given_A, pG_given_B, pG_given_C, pC_given_P, pB_complement)
 
+**SCENARIO 6**
+
+# Given values
+mean_banana = 630  # mean potassium in one banana
+std_dev_banana = 40  # standard deviation
+n = 3  # number of bananas
+
+# Mean and standard deviation of T
+mean_T = n * mean_banana
+std_dev_T = sqrt(n) * std_dev_banana
+
+# Probability that T exceeds 2000 mg
+# Standardize the variable (2000 mg) first
+z = (2000 - mean_T) / std_dev_T
+# Find the probability
+probability = 1 - pnorm(z)
+
+# Output the results
+mean_T
+std_dev_T
+probability
+
